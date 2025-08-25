@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Configuration_orangehrm-card-container</name>
+   <tag></tag>
+   <elementGuidId>ebba4103-1064-41d5-a964-2f8627038e84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-card-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Add EmployeeAccepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 2&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>05227988-d1fd-4369-8c73-8d209d5d0dbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-card-container</value>
+      <webElementGuid>36d55b07-868d-42f6-a55c-e15db9695edc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add EmployeeAccepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200pxEmployee Full NameEmployee IdCreate Login Details * Required Cancel  Save </value>
+      <webElementGuid>04450a0a-4361-4b25-b883-39284baed17f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]</value>
+      <webElementGuid>aa2028f4-62ab-4b4a-abe5-6d67098e031d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>bfaa9ced-aebe-4603-a6be-5d1f5fa01e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::div[6]</value>
+      <webElementGuid>0892bb77-2ee5-4023-bdc9-02a9196f1149</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>3d9501d9-6f56-4ccb-8115-3fde6ca1a446</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add EmployeeAccepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200pxEmployee Full NameEmployee IdCreate Login Details * Required Cancel  Save ' or . = 'Add EmployeeAccepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200pxEmployee Full NameEmployee IdCreate Login Details * Required Cancel  Save ')]</value>
+      <webElementGuid>6dd61cb0-f970-4de6-abb9-3cef72536b80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
