@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee" time="29.596" tests="1" failures="0" errors="0">
+   <testsuite name="Employee" tests="1" failures="0" errors="0" time="29.596" skipped="0" timestamp="2025-08-25T14:57:26.194Z" hostname="user - DESKTOP-B0BSFCQ" id="Test Suites/Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Test\\Reports\\20250825_215721\\Employee\\20250825_215722"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Test\\Reports\\20250825_215721\\Employee\\20250825_215722\\console0.log, C:\\Users\\user\\Katalon Studio\\Test\\Reports\\20250825_215721\\Employee\\20250825_215722\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-B0BSFCQ"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 139.0.7258.139"/>
+         <property name="userFullName" value="Dhamara Pratama"/>
+         <property name="hostAddress" value="192.168.1.35"/>
+         <property name="sessionId" value="2fcfc3a7d87fc9e37ca1d42e314546b9"/>
+         <property name="projectName" value="Test"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Employee/TC_AddEmployee" time="29.061" classname="Test Cases/Employee/TC_AddEmployee" status="PASSED">
+         <system-out><![CDATA[25-08-2025T21:57:26 - [TEST_CASE][PASSED] - Test Cases/Employee/TC_AddEmployee: Test Cases/Employee/TC_AddEmployee
+
+25-08-2025T21:57:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-08-2025T21:57:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-08-2025T21:57:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-08-2025T21:57:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-08-2025T21:57:29 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+25-08-2025T21:57:32 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+25-08-2025T21:57:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+25-08-2025T21:57:33 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+25-08-2025T21:57:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+25-08-2025T21:57:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+25-08-2025T21:57:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+25-08-2025T21:57:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+25-08-2025T21:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin_oxd-main-menu-item")): Object: 'Object Repository/Page_OrangeHRM/a_Admin_oxd-main-menu-item' is clicked on
+
+25-08-2025T21:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Admin_oxd-main-menu-item' is clicked on
+
+25-08-2025T21:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/li_Configuration_oxd-topbar-body-nav-tab")): Object: 'Object Repository/Page_OrangeHRM/li_Configuration_oxd-topbar-body-nav-tab' is clicked on
+
+25-08-2025T21:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/li_Configuration_oxd-topbar-body-nav-tab' is clicked on
+
+25-08-2025T21:57:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/div_Configuration_orangehrm-card-container")): Object: 'Object Repository/Page_OrangeHRM/div_Configuration_orangehrm-card-container' is clicked on
+
+25-08-2025T21:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/div_Configuration_orangehrm-card-container' is clicked on
+
+25-08-2025T21:57:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName"), "qwer"): Text 'qwer' is set on object 'Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+25-08-2025T21:57:47 - [MESSAGE][PASSED] - Text 'qwer' is set on object 'Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+25-08-2025T21:57:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName"), "rtyu"): Text 'rtyu' is set on object 'Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+25-08-2025T21:57:48 - [MESSAGE][PASSED] - Text 'rtyu' is set on object 'Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+25-08-2025T21:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Cancel_oxd-button oxd-button--medium_160139")): Object: 'Object Repository/Page_OrangeHRM/button_Cancel_oxd-button oxd-button--medium_160139' is clicked on
+
+25-08-2025T21:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Cancel_oxd-button oxd-button--medium_160139' is clicked on
+
+25-08-2025T21:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast oxd-toast--suc_e9b1cc")): Object: 'Object Repository/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast oxd-toast--suc_e9b1cc' is clicked on
+
+25-08-2025T21:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast oxd-toast--suc_e9b1cc' is clicked on
+
+25-08-2025T21:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button__oxd-button oxd-button--medium oxd-b_ad9c84")): Object: 'Object Repository/Page_OrangeHRM/button__oxd-button oxd-button--medium oxd-b_ad9c84' is clicked on
+
+25-08-2025T21:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button__oxd-button oxd-button--medium oxd-b_ad9c84' is clicked on
+
+25-08-2025T21:57:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/li__oxd-topbar-body-nav-tab")): Object: 'Object Repository/Page_OrangeHRM/li__oxd-topbar-body-nav-tab' is clicked on
+
+25-08-2025T21:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/li__oxd-topbar-body-nav-tab' is clicked on
+
+25-08-2025T21:57:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-08-2025T21:57:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-08-2025T21:57:26 - [TEST_SUITE][PASSED] - Employee: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

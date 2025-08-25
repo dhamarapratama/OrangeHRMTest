@@ -1,0 +1,37 @@
+2025-08-25 23:11:02.060 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Employee
+2025-08-25 23:11:02.166 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = dhamara
+2025-08-25 23:11:02.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = OrangeHRMTest
+2025-08-25 23:11:02.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = user - DESKTOP-B0BSFCQ
+2025-08-25 23:11:02.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-25 23:11:02.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.35
+2025-08-25 23:11:02.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-08-25 23:11:02.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-25 23:11:02.687 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Employee/TC_AddEmployee
+2025-08-25 23:11:03.084 DEBUG testcase.TC_AddEmployee                  - 1: openBrowser("")
+2025-08-25 23:11:03.309 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-25 23:11:03.363 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Agu 25, 2025 11:11:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2025-08-25 23:11:04.971 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bc417fb84a3971550ef7936ad995762a
+2025-08-25 23:11:04.972 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.139
+2025-08-25 23:11:04.973 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-25 23:11:04.974 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-25 23:11:04.986 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-25 23:11:05.032 DEBUG testcase.TC_AddEmployee                  - 2: navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+2025-08-25 23:11:08.489 DEBUG testcase.TC_AddEmployee                  - 3: setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), "Admin")
+2025-08-25 23:11:09.972 DEBUG testcase.TC_AddEmployee                  - 4: setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ==")
+2025-08-25 23:11:10.329 DEBUG testcase.TC_AddEmployee                  - 5: sendKeys(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER))
+2025-08-25 23:11:10.623 DEBUG testcase.TC_AddEmployee                  - 6: click(findTestObject("Object Repository/Page_OrangeHRM/a_Admin_oxd-main-menu-item"))
+2025-08-25 23:11:14.450 DEBUG testcase.TC_AddEmployee                  - 7: click(findTestObject("Object Repository/Page_OrangeHRM/li_Configuration_oxd-topbar-body-nav-tab"))
+2025-08-25 23:11:17.939 DEBUG testcase.TC_AddEmployee                  - 8: click(findTestObject("Object Repository/Page_OrangeHRM/div_Configuration_orangehrm-card-container"))
+2025-08-25 23:11:19.207 DEBUG testcase.TC_AddEmployee                  - 9: setText(findTestObject("Object Repository/Page_OrangeHRM/input_Employee Full Name_firstName"), "qwer")
+2025-08-25 23:11:19.772 DEBUG testcase.TC_AddEmployee                  - 10: setText(findTestObject("Object Repository/Page_OrangeHRM/input_Employee Full Name_lastName"), "rtyu")
+2025-08-25 23:11:20.335 DEBUG testcase.TC_AddEmployee                  - 11: click(findTestObject("Object Repository/Page_OrangeHRM/button_Cancel_oxd-button oxd-button--medium_160139"))
+2025-08-25 23:11:20.635 DEBUG testcase.TC_AddEmployee                  - 12: click(findTestObject("Object Repository/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast oxd-toast--suc_e9b1cc"))
+2025-08-25 23:11:22.426 DEBUG testcase.TC_AddEmployee                  - 13: click(findTestObject("Object Repository/Page_OrangeHRM/button__oxd-button oxd-button--medium oxd-b_ad9c84"))
+2025-08-25 23:11:26.377 DEBUG testcase.TC_AddEmployee                  - 14: click(findTestObject("Object Repository/Page_OrangeHRM/li__oxd-topbar-body-nav-tab"))
+2025-08-25 23:11:27.587 DEBUG testcase.TC_AddEmployee                  - 15: closeBrowser()
+2025-08-25 23:11:27.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Employee/TC_AddEmployee
+2025-08-25 23:11:27.786 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-25 23:11:27.786 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Employee
+2025-08-25 23:11:27.786 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
